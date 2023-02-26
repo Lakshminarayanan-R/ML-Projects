@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Used Car Price Prediction</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.3/jquery.min.js"></script>
+    <script src="used_car_price.js"></script>
+    <link rel = "stylesheet" href="used_car_price.css">
+</head>
+<body>
+<div class = "image"></div>
+<h1 class = "title">Wanna Know how much a used car would cost!</h1>
+
+<form class = "form">
+    <h2>Total Kilometers Driven</h2>
+    <input class = "kms" type = "email" id="uikms">
+    <h2>Number of Owners</h2>
+    <div>
+        <select class= "owner" name="" id="uiowner">
+            <option value = "", disabled = "disabled", selected="selected">Select the number of owners</option>
+            <option>1</option>
+            <option>2</option>
+            <option>3</option>
+            <option>4</option>
+        </select>
+    </div>
+    <h2>Age of the car</h2>
+    <div>
+        <select class= "car_life" name="" id="uicarlife">
+            <option value = "", disabled = "disabled", selected="selected">Select the age of the car</option>
+            <option>1</option>
+            <option>2</option>
+            <option>3</option>
+            <option>4</option>
+            <option>5</option>
+            <option>6</option>
+            <option>7</option>
+            <option>8</option>
+            <option>9</option>
+            <option>10</option>
+        </select>
+    </div>
+    <h2>Car Model</h2>
+    <div>
+        <select class = "carmodel" name="" id="uicarmodel">
+            <option value="" disabled="disabled" selected="selected">Select the Car Model</option>
+            <option>Maruti - Swift</option>
+            <option>Hyundai - Creta</option>
+        </select>
+    </div>
+    <h2>Car Type</h2>
+    <div>
+    <select class = "car_type" name="" id="uicartype">
+        <option value="" disabled="disabled" selected="selected">Select the Car Varient</option>
+        <option>Manual</option>
+        <option>Automatic</option>
+    </select>
+    </div>
+    <h2>Fuel_Type</h2>
+    <div>
+    <select class = "fuel" name="" id="uifuel">
+        <option value="" disabled="disabled" selected="selected">Select the Fuel Type</option>
+        <option>Petrol</option>
+        <option>Diesel</option>
+    </select>
+    </div>
+    <h2>City</h2>
+    <div>
+    <select class = "city" name="" id="uicity">
+        <option value="" disabled="disabled" selected="selected">Select the City</option>
+        <option>Chennai</option>
+        <option>Delhi</option>
+    </select>
+    </div>
+    <button class="submit" onclick="OnClickEstimatePrice()" type="button">Estimate Car Price</button>
+    <div id="uiEstimatePrice" class="result"><h2></h2></div>
+</form>
+
+</body>
+</html>

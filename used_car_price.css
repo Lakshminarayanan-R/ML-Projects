@@ -1,0 +1,68 @@
+@import url('https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap');
+
+.image{
+    background: url('https://www.autoinfluence.com/wp-content/uploads/2019/05/Used-Car-Dealers-Dealership-Keys.jpg');
+    width: 100%;
+    height: 100%;
+    background-repeat: no-repeat;
+    background-size: auto;
+    background-size: 100%;
+    top: 0;
+    left:0;
+    position:fixed;
+    filter: blur(5px);
+    z-index: -1;
+}
+
+.title{
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 25px;
+    font-weight: 1000;
+}
+
+.form{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    padding-left: 500px;
+    padding-top: 20px;
+}
+
+.kms,.owner,.car_life,.carmodel,.car_type,.fuel,.city{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 15px;
+    background-color:aqua;
+    height: 25px;
+    border-radius: 5px;
+    padding-left: 5px;
+    width: 22%;
+    box-sizing: border-box;
+}
+
+.submit{
+    font-family: 'Times New Roman', Times, serif;
+    background-color:greenyellow;
+    font-size: medium;
+    border-radius: 5px;
+    padding-left: 10px;
+    margin-top: 10px;
+    width: 22%;
+    box-sizing: border-box;
+}
+
+.result{
+    font-family: 'Times New Roman', Times, serif;
+    background-color:chartreuse;
+    font-size: medium;
+    font-weight: bold;
+    border-radius: 5px;
+    padding-left: 10px;
+    width: 22%;
+    box-sizing: border-box;
+    text-align: center;
+}
+
+body,html{
+    height: 100%;
+}
+
